@@ -1,0 +1,22 @@
+{
+  "name": "smart_bus_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^7.8.7",
+    "nodemailer": "^7.0.6",
+    "twilio": "^5.9.0"
+  }
+}

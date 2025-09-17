@@ -1,0 +1,3 @@
+### Get student by ID
+GET http://localhost:5000/api/students/550115
+

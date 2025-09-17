@@ -1,0 +1,47 @@
+POST http://localhost:5000/api/students
+Content-Type: application/json
+
+[
+  {
+    "stu_id": "550101",
+    "nfcId": "04A3F98B2C",
+    "stu_name": "Arjun Reddy",
+    "gender": "Male",
+    "parent_name": "Suresh Reddy",
+    "parents_phone_number": "8519813814",
+    "class_section": "10-A",
+    "bus_no": "55",
+    "is_bus_student": true,
+    "address": "Sri Nidhi Heights,\nPoranki,Vijayawada",
+    "bus_stop_address": "PVP Siddhartha Engineering College Rd",
+    "transport_fee": 12000
+  },
+  {
+    "stu_id": "550102",
+    "nfcId": "03D9A1C4F2",
+    "stu_name": "Vinay Kumar",
+    "gender": "Male",
+    "parent_name": "Ravi Kumar",
+    "parents_phone_number": "8885310346",
+    "class_section": "9-B",
+    "bus_no": "55",
+    "is_bus_student": true,
+    "address": "HANUMOLU SUBRAHAMANYA NILAYAM ,\nTadigadapa,Poranki",
+    "bus_stop_address": "PVP Siddhartha Engineering College Rd,\nTadigadapa",
+    "transport_fee": 14500
+  },
+  {
+    "stu_id": "550116",
+    "nfcId": "045D92F1B4",
+    "stu_name": "Shruti R",
+    "gender": "Female",
+    "parent_name": "Kavitha R",
+    "parents_phone_number": "9000000016",
+    "class_section": "7-A",
+    "bus_no": "77",
+    "is_bus_student": true,
+    "address": "Media Nagar,  Jayaprakash Nagar, Vijayawada",
+    "bus_stop_address": "Loyola College Road",
+    "transport_fee": 11500
+  }
+]
