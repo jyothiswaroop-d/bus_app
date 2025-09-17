@@ -1,4 +1,3 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
 import 'pages/login_page.dart';
 
@@ -7,18 +6,12 @@ void main() {
 }
 
 class BusTrackingApp extends StatelessWidget {
-  const BusTrackingApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Bus Tracking System',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: LoginPage(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
